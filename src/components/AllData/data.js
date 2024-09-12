@@ -138,4 +138,49 @@ const mockData = async () => {
   };
 }
 
-export {investmentData,menuItems,footerData,mockData}
+const cardsData = [
+  {
+    imgSrc: "	https://upstox.com/app/themes/upstox/dist/img/invest-in-share-market/webinars.svg",
+    title: "Courses",
+    description: "Self-Help Courses on Options Trading With Quizzes!"
+  },
+  {
+    imgSrc: "	https://upstox.com/app/themes/upstox/dist/img/invest-in-share-market/courses.svg",
+    title: "Webinars",
+    description: "Risk Management, Options Trading, Technical Analysis, and More"
+  },
+  {
+    imgSrc: "	https://upstox.com/app/themes/upstox/dist/img/invest-in-share-market/quick.svg",
+    title: "Quick Videos",
+    description: "On Stocks, Mutual Funds, IPOs, Gold and More."
+  }
+];
+
+const testimonials = [
+  {
+    name: "Jitendra Kumar",
+    text: "One of the best application for investing and trading. UI is very simple. The best thing I love about this app is it's customer executive, they deal with each and every problem you face as early as possible... Thanks for making my investment so easy..."
+  },
+  {
+    name: "Siva Prasad",
+    text: "The new Upstox upgrade is great. Company Financials, Charts, News are all in one place. Helped me avoid jumping across apps. Now, I’d like to keep Upstox always running without logging out!"
+  },
+  {
+    name: "Manjushree",
+    text: "Best app ever! Upstox provides news, charts, summary, P&L, funds balance, etc... And all features are just amazing. The screen is attractive and easy to use for beginners too."
+  },
+  {
+    name: "Arabinda Panda",
+    text: "In my opinion, Upstox is the best app I have ever used. Best customer service is unmatched and provides easy interface for users. That’s why anyone can use and understand this app without any problem."
+  },
+  {
+    name: "Manjushree",
+    text: "Best app ever! Upstox provides news, charts, summary, P&L, funds balance, etc... And all features are just amazing. The screen is attractive and easy to use for beginners too."
+  },
+  {
+    name: "Arabinda Panda",
+    text: "In my opinion, Upstox is the best app I have ever used. Best customer service is unmatched and provides easy interface for users. That’s why anyone can use and understand this app without any problem."
+  }
+];
+
+export {investmentData,menuItems,footerData,mockData,cardsData,testimonials}

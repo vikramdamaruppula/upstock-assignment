@@ -59,10 +59,10 @@ const Login = ({setIsAuthenticated}) => {
 
                 <div className='mb-3 w-25 login-inputs'>
                   <p>forgot Password </p>
-                  <button type='submit' className='btn login-btn' >Sign In/Login !</button>
+                  <button type='submit' className='btn btn-secondary' >Sign In/Login !</button>
                 </div>
             </form>
-            <p style={{color:'red'}}> {errMessage} </p>
+            <p style={{color:'yellowgreen',textAlign:'center'}}> use username as : user@gmail.com ,password as : password </p>
             </div>
         </div>
     </div>

@@ -7,6 +7,7 @@ const Investors = () => {
     <section style={{background:'#f2ecfd'}}>
     <div className='container text-center py-5'>
         <h2>Upstox for Investors</h2>
+        <p className='text-warning'> Click the click here for stock button to see stocks </p>
         <p className='para mb-5'>We understand that investors and traders have different needs, which is why we've created a separate mode called Upstox for Investors</p>
         <div className="row">
         {investmentData.map((item, index) => (

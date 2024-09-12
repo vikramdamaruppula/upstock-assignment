@@ -141,3 +141,8 @@ form span{
         height: 340px;
     }
 }
+
+
+.uplearn-container{
+    z-index: -1;
+}

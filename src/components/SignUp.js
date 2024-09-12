@@ -89,7 +89,7 @@ const SignUp = () => {
                     {errors && <p style={{color:'red'}}>{errors} </p> }
                     <div className='d-flex gap-3 mb-3 w-100 '>
                       <button type='submit' className='btn btn-primary ml-3'>Sign Up !</button>
-                      <button type='submit' className='btn login-btn' onClick={()=>navigate('/login')} >Sign In/Login !</button>
+                      <button type='submit' className='btn btn-secondary' onClick={()=>navigate('/login')} >Sign In/Login !</button>
                     </div>
                 </form>
                 </div>
