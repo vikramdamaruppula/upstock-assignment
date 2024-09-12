@@ -1,0 +1,161 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+position: sticky;
+top: 0px;
+}
+.logo img{
+    height: 40px;
+}
+.nav-menu{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    right: 2rem;
+}
+
+.menu-item{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.menu-item:hover{
+    font-size: 18px;
+}
+.dropdown{
+    position: absolute;
+    top: 100%;
+    /* left:0; */
+    background-color: #4b006e;
+    color: white;
+    padding: 20px;
+    z-index: 999;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+
+}
+.dropdown-content{
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+}
+.dropdown-section {
+    margin-right: 20px;
+    text-align: left;
+  }
+
+  .dropdown-section h4 {
+    font-size: 15px;
+    color: #b39ddb;
+  }
+  
+  .dropdown-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown-section ul li{
+    margin: 5px 0;
+    color: #e0e0e0;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .dropdown-section ul li:hover{
+    color:#fff;
+  }
+  .search-bar input {
+    padding: 5px 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+.actions{
+    display: flex;
+    gap: 10px;
+}
+.open-account-btn, .sign-in-btn {
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: 1px solid #6200ea;
+    color: #6200ea;
+    background-color: white;
+    cursor: pointer;
+    height: 38px;
+  }
+
+  .open-account-btn:hover, .sign-in-btn:hover {
+    background-color: #6200ea;
+    color: white;
+  }
+  
+  .btn-input-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+    margin-right: 2rem;
+    gap: 20px;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .hamburger-menu{
+    display:none;
+  }
+
+
+  @media(max-width:768px){
+    .nav-menu{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 0;
+        z-index: 10;
+
+    }
+    .nav-menu.active{
+        display: flex;
+        gap: 0px;
+        top: 55px;
+    }
+    .hamburger-menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .logo img{
+        height: 32px;
+    }
+    .btn-input-container{
+        display: none;
+    }
+    .open-icon{
+        opacity: 0.9;
+    }
+    .sign-in-btn{
+        border: 1px solid #41246e;
+        border-radius: 25px;
+        color: #41246e;
+        padding: 8px 12px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 19px;
+    }
+  }
